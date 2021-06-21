@@ -3,14 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NewdesignComponent } from './newdesign/newdesign.component';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NewdesignComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
